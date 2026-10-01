@@ -207,7 +207,7 @@ video {
 @media (max-width:420px){:root{--container-width:360px}.big-title{font-size:72px}.name{font-size:42px}}
 @media (max-width:390px) {
     .overlay{
-        transform: translateX(-20%);
+        transform: translateX(-30%);
     }
     .big-title{
         font-size: 50px;
@@ -239,6 +239,8 @@ video {
         overflow-y: auto;
         
     }
+    .overlay img{
+    width: 350px;} 
     
         
 }
